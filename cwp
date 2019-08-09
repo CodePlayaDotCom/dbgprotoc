@@ -1,0 +1,4 @@
+## CloudFlare 522 gateway timeout error ##
+
+-- flush block cloudflare ips from cwp csf --
+[2 hours work around]
