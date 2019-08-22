@@ -1,0 +1,22 @@
+For does who want to use bootstrap 3 panel as equal height in a row with css flex style
+You shoud do as following example:
+
+#which is direction is row
+
+<div class="row flex-row">
+    <div class="col-md-4 col-xs-12 flex-row">
+        <div class="panel panel-default" style="flex:1;">
+            <div class="panel-heading">
+                I am bootstrap 3 panel title
+            </div>
+            <div class="panel-body">
+                <img src="exmpl-img" class="img-responsive">
+                <p>
+                    Some Text Here
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+I say again,it works with bootstrap 3 panel component which needs to have same height.
